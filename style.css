@@ -1,0 +1,84 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F0F0F0;
+}
+
+.container {
+	margin-top: 50px;
+	text-align: center;
+}
+
+span {
+	font-size: 85px;
+	color: #050505;
+}
+
+h1 {
+	font-size: 60px;
+	color: #40B81C;
+	margin-bottom: 40px;
+}
+
+h2 {
+	color: #050505;
+	margin-bottom: 10px;
+}
+
+input[type=text], textarea {
+	width: 350px;
+	text-align: center;
+	color: #40B81C;
+	outline: none;
+	padding: 10px;
+	margin: 5px 1px 3px 0px;
+	border: none;
+	border-radius: 4px;
+	font-size: 18px;
+}
+ 
+input[type=text]:focus, textarea:focus {
+	color: #40B81C;
+	box-shadow: 0 0 5px #E5E6D1;
+	padding: 10px;
+	margin: 5px 1px 3px 0px;
+	border: 1px solid #E5E6D1;
+	border-radius: 4px;
+	font-size: 18px;
+}
+
+::-webkit-input-placeholder { color: #40B81C; opacity: 1 !important; }
+:-moz-placeholder { color: #40B81C;}
+::-moz-placeholder {color: #40B81C;}
+:-ms-input-placeholder {color: #40B81C;}
+
+.alert {
+	margin: auto;
+	margin: -40px auto 10px auto;
+	max-width: 350px;
+}
+
+.results {
+
+	max-width: 450px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.winner {
+	font-size: 20px;
+	color: #050505;
+	margin: -40px 0 40px 0;
+}
+
+.numGuesses {
+	color: #40B81C;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+
